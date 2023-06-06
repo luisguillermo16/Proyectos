@@ -1,0 +1,43 @@
+body{
+    display: flex;
+  align-items: center; 
+  justify-content: center; 
+  height: 80vh; 
+}
+
+
+.background{
+    
+    background-color: rgb(220, 226, 245);
+    border: solid 1px;
+    border-color: rgb(173, 173, 173);
+    border-radius: 20px;
+    width:250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+  }
+    
